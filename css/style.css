@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+    color: white;
+}
+
+#app{
+    text-align: center;
+    width: 40vw;
+    margin: 10vh auto;
+}
+
+span{
+    color: red;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#app ul li{
+    text-align: left;
+    list-style: none;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
