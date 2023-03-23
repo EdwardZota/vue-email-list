@@ -12,7 +12,7 @@
     <div id="app">
        
         <ul>
-            <li v-for="elemento in lista">{{elemento.email}}</li>
+            <li v-if="lista.length==10" v-for="elemento in lista">{{elemento.email}}</li>
         </ul>
 
 
