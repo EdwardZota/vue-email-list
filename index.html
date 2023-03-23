@@ -12,8 +12,8 @@
     <div id="app">
        <h1>Lista email temporanee(finte)</h1>
        <span v-if="lista.length>0">nessuna delle seguenti email funziona</span> 
-       <ul>
-            <li v-if="lista.length==10" v-for="elemento in lista">{{elemento.email}}</li>
+       <ul v-if="lista.length==10">
+            <li v-for="elemento in lista">{{elemento.email}}</li>
         </ul>
 
 
